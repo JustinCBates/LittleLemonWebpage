@@ -1,0 +1,166 @@
+body {
+  background-color: black;
+}
+
+header {
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  height: 225px;
+  width: 100%;
+}
+
+.header-logo-div {
+  height: 150px;
+  display: flex;
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-content: center;
+}
+
+.navigation-div {
+  display: flex;
+  height: 50px;
+}
+
+nav {
+  margin: auto;
+}
+
+nav a {
+  background-color: chocolate;
+  font-size: 16px;
+  color: black;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 10px;
+  padding: 5px 5px;
+  margin: 5px 5px;
+}
+
+main {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.border {
+  border-style: solid;
+  border-width: 3px;
+  border-color: darkolivegreen;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+
+.special-div {
+  display: box;
+  background-color: beige;
+  height: 160px;
+  background-image: url("./resources/olives_tile.png");
+  background-size: 100%;
+  color: white;
+  font-style: bold;
+  text-align: center;
+  text-justify: center;
+  padding: auto;
+}
+
+.special-div div h2 {
+  text-shadow: black 2px 2px;
+  text-decoration: underline;
+}
+
+.special-div div p {
+  text-shadow: black 2px 2px;
+}
+
+.article-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-div {
+  display: block;
+  background-color: beige;
+  font-size: 14px;
+  height: 600px;
+  color: darkolivegreen;
+  text-align: center;
+  text-justify: center;
+}
+
+.article-container h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: darkolivegreen;
+}
+
+.image-div {
+  padding: 5px auto;
+  margin: 5px auto;
+}
+
+.image-div img {
+  display: block;
+  background-color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.article-description {
+  background-color: beige;
+  color: black;
+  text-justify: left;
+  align-self: left;
+  text-align: left;
+}
+
+footer {
+  margin: 10px 10px;
+  color: white;
+}
+
+.footer-div {
+  display: flex;
+}
+
+.footer-info-div {
+  display: flex;
+  width: 50%;
+}
+
+.footer-logo-div {
+  display: flex;
+}
+
+footer img {
+  height: 60px;
+  padding: auto;
+  margin-right: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.footer-contact-div {
+  text-align: left;
+  text-justify: left;
+  font-size: 12px;
+}
+
+.footer-copywrite-div {
+  padding-right: 10px;
+  display: block;
+  width: 50%;
+  text-align: right;
+  text-justify: right;
+  font-size: 12px;
+}
